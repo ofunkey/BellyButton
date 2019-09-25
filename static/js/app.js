@@ -1,5 +1,5 @@
 function buildMetadata(sample) {
-    // @TODO: Complete the following function that builds the metadata panel
+    // Complete the following function that builds the metadata panel
     var url = `/metadata/${sample}`;
     // Use `d3.json` to fetch the metadata for a sample
     d3.json(url).then(metadata => {
